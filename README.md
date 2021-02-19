@@ -4,12 +4,10 @@ You can use our node package `dotmm` to create your own dotmm file. View a examp
 
 ```js
 const { variables } = require('dotmm')();
-variables.myVariable;
-if(variables.anotherVariable) console.log("anotherVariable is true");
+console.log(variables.myVariable); // "This is a example dotmm variable"
 ```
 ```
 myVariable="This is a example dotmm variable"
-anotherVariable=true
 ```
 
 > dotmm can accept values as strings, numbers, arrays, objects and booleans.
@@ -17,14 +15,8 @@ anotherVariable=true
 ## How to setup
 
 **Requires Node version 14 or greater.**<br/>
-As you can see, dotmm is a easy-to-setup node package. To begin, you will need to install dotmm in your project.<br/>
-``npm install dotmm`` or install an old version: ``npm install dotmm@1.0.0``.<br/>
-After you need to create a `.mm` file to create variables. You can see a dotmm file example at the start of this README.<br/><br/>
-
-And now, use this JavaScript code below to start your journey.
-```js
-const { variables } = require('dotmm')();
-```
+As you can see, dotmm is a easy-to-setup node package.
+Install dotmm by the NPM command: ``npm install dotmm`` or install an old version: ``npm install dotmm@1.0.0``.<br/>
 
 ## License
 
